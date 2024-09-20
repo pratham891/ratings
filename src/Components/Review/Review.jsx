@@ -1,12 +1,15 @@
 import React from 'react';
 import './Review.css';
 import User from './User';
+import TestimonialSlider from './TestimonialSlider';
 
 const Review = () => {
   return (
     <div className='Review_Section'>
       <h1>What Our Happy Users Say</h1>
-      <div className='Review_Section_1'>
+      <TestimonialSlider />
+
+      {/* <div className='Review_Section_1'>
        
 
         <User
@@ -30,7 +33,7 @@ const Review = () => {
           bio='Head of Global Tech Company'
           about='Maria finds our solution invaluable for her business operations.'
         />
-      </div>
+      </div> */}
       <div className='Review_Section_3'>
         {/* Additional content if needed */}
       </div>
